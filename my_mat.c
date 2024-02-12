@@ -55,9 +55,9 @@ void functionA_init() {
 void functionB_boolHavePath(int i, int j) {
     int warshall = my_floyd_matrix[i][j];
     if (warshall == 0 || warshall == INFINITY) {
-        printf("False");
+        printf("False\n");
     } else {
-        printf("True");
+        printf("True\n");
     }
 }
 
@@ -65,8 +65,8 @@ void functionB_boolHavePath(int i, int j) {
 void functionC_shortestPath(int i, int j) {
     int warshall = my_floyd_matrix[i][j];
     if (warshall == 0 || warshall == INFINITY) {
-        printf("%d", -1);
+        printf("%d\n", -1);
     } else {
-        printf("%d", warshall);
+        printf("%d\n", warshall);
     }
 }
