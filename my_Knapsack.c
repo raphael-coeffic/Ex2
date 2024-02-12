@@ -64,7 +64,7 @@ int main() {
     for (int i=0 ; i<NUM_OF_ITEMS; i++)
    {
       if (selected_bool[i]==1)
-      printf("%c ", items[i]);
+      printf(" %c", items[i]);
    }
 
     return 0;
