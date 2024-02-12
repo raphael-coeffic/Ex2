@@ -12,23 +12,23 @@ int main() {
         switch (func_choice) {
             case 'A':             // first function
                 functionA_init();
-                // printf("\n");
+                printf("\n");
                 break;
 
             case 'B':             // second function
                 scanf("%d %d", &i, &j);
                 functionB_boolHavePath(i, j);
-                // printf("\n");
+                printf("\n");
                 break;
 
             case 'C':             // third function
                 scanf("%d %d", &i, &j);
                 functionC_shortestPath(i, j);
-                // printf("\n");
+                printf("\n");
                 break;
 
             case 'D':             // exit
-                // printf("\n");
+                printf("\n");
                 exit(0);
 
             default:
