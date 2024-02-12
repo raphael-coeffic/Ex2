@@ -47,11 +47,11 @@ int main() {
 
    for (int i = 0; i < NUM_OF_ITEMS; i++) {
    
-    //   printf("Enter name of item %d: ", i + 1);
+      printf("Enter name of item %d: ", i + 1);
       scanf("%c", &items[i]);
-    //   printf("Enter value of item %d: ", i + 1);
+      printf("Enter value of item %d: ", i + 1);
       scanf("%d", &values[i]);
-    //   printf("Enter weight of item %d: ", i + 1);
+      printf("Enter weight of item %d: ", i + 1);
       scanf("%d", &weights[i]);
       getchar();
     }
